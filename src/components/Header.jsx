@@ -16,7 +16,7 @@ const Header = () => {
           <AiFillOpenAI />
         </IconContext.Provider>
 
-        <div className="flex items-center">
+        <div className="hidden laptop:flex items-center">
           <div className="bg-[#292B2F] p-[10px] rounded-l-md">
             <IconContext.Provider value={{ color: "#9CA3AF" }}>
               <IoSearch />

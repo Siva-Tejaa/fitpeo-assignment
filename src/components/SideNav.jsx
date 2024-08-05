@@ -51,7 +51,7 @@ const SideNav = () => {
   ];
 
   return (
-    <aside className="bg-[#1F2029] text-[#909296] flex flex-col py-1">
+    <aside className="hidden tablet:flex flex-col bg-[#1F2029] text-[#909296] py-1">
       {sideNavItems.map((navItem) => (
         <nav
           key={navItem.id}

@@ -62,11 +62,11 @@ const Total = () => {
   ];
 
   return (
-    <section className="flex items-center justify-between gap-2">
+    <section className="flex flex-col items-center justify-between gap-2 laptop:flex-row">
       {list.map((item) => (
         <div
           key={item?.id}
-          className="bg-[#1F2029] rounded-md p-3 flex flex-col gap-6 w-[25%] h-[155px]"
+          className="bg-[#1F2029] rounded-md p-3 flex flex-col gap-6 w-[100%] h-[100%] laptop:w-[25%] laptop:h-[155px]"
         >
           <div className="flex flex-col gap-2">
             <div
